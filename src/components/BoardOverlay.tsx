@@ -1,3 +1,4 @@
+import React from 'react';
 import { SNAKES, LADDERS, cellToGridPosition } from '../constants/board';
 
 /**
@@ -174,7 +175,7 @@ function LadderPath({
 
     // Rungs
     const rungs = Math.max(3, Math.floor(dist / 8));
-    const rungElements: JSX.Element[] = [];
+    const rungElements: React.ReactElement[] = [];
     for (let i = 1; i < rungs; i++) {
         const t = i / rungs;
         const lx = leftStart.x + (leftEnd.x - leftStart.x) * t;
