@@ -23,6 +23,9 @@ export function Home() {
                 <p className="text-purple-600/60 mt-2 text-lg font-medium">
                     ¡El juego de mesa clásico!
                 </p>
+                <p className="mt-3 text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 animate-pulse">
+                    🎯 Juego para jugar con Mike Alejandro 🎯
+                </p>
             </header>
 
             <main className="relative z-10 flex-1 flex items-center justify-center py-8">
